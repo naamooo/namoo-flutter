@@ -1,0 +1,46 @@
+# Flutter 관련
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+macos/Flutter/ephemeral/
+*.flutter-plugins
+*.flutter-plugins-dependencies
+
+# Android 관련
+**/android/.gradle/
+**/android/captures/
+**/android/local.properties
+**/android/.idea/
+
+# Xcode 관련
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+DerivedData/
+.idea/
+
+# VSCode 설정
+.vscode/
+*.code-workspace
+
+# 실행 중 생성되는 파일
+pubspec.lock
+*.log
+
+# 환경 변수 파일 (있다면)
+.env
+.env.*
+
+# macOS/Linux 시스템 파일
+.DS_Store
+Thumbs.db
+
+# 테스트 결과
+coverage/
